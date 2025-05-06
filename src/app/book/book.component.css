@@ -1,0 +1,13 @@
+.book {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

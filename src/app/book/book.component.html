@@ -1,1 +1,14 @@
-<p>book works!</p>
+<div class="book">
+    <h1>{{ book.title }}</h1>
+    <p><strong>Автор:</strong> {{ book.author }}</p>
+    <p><strong>Год издания:</strong> {{ book.year }}</p>
+    <p><strong>Количество страниц:</strong> {{ book.pages }}</p>
+    <p><strong>Издательство:</strong> {{ book.publisher }}</p>
+    <img [src]="book.coverImage" alt="Обложка книги" />
+    <h2>Рецензии:</h2>
+    <ul>
+      <li *ngFor="let review of book.reviews">{{ review }}</li>
+    </ul>
+    <img [src]="book.authorImage" alt="Фотография автора" />
+  </div>
+  
