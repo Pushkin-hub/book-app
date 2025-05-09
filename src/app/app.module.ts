@@ -6,7 +6,7 @@ import { BookComponent } from './book/book.component';
 @NgModule({
   declarations: [
     AppComponent,
-    BookComponent
+    BookComponent,
   ],
   imports: [
     BrowserModule

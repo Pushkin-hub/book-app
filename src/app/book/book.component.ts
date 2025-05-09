@@ -8,7 +8,7 @@ import { Book } from '../book.model';
   styleUrls: ['./book.component.css']
 })
 export class BookComponent implements OnInit {
-  book: Book;
+  book!: Book;
 
   constructor(private bookService: BookService) {}
 
